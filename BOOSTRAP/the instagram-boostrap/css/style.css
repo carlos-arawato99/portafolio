@@ -1,0 +1,26 @@
+.navbar-nav{
+    visibility: collapse;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .navbar-nav{
+        visibility: visible;
+    }
+    
+}
+
+.btn-group{
+    visibility: visible;
+}
+
+@media screen and (max-width: 1000px) {
+    .btn-group{
+        visibility: collapse;
+    }
+    
+}
+
+.navbar-brand{
+    font-family: 'Acme', sans-serif;
+}
