@@ -1,3 +1,12 @@
 body {
  background: #0A517A;
 }
+
+.container{
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
+}
+
+.container.imagenes-cargadas{
+    opacity: 1;
+}
