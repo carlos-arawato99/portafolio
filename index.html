@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
     <link rel="shorcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <title>Carlos Martinez</title>
 </head>
@@ -24,10 +24,8 @@
                     <a href="#">Acerca De</a>
                     <a href="#">Proyectos</a>
                     <a href="#">Contacto</a>
-                  
                   </div>
                 </nav>
-
             </header>
         
             
@@ -37,9 +35,80 @@
                 <br>
                 <h1 class="name">Carlos Martinez</h1>
             </div>
+            <br>
+            <div class="icons">
+                    <img src="images/html5.svg" width="50" alt="">
+                    <img src="images/css3.png" width="50" alt="">
+                    <img src="images/js.png" width="50" alt="">
+                </div>
 
 
 
+  <!-- Swiper -->
+  <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="imgBx">
+                  <img src="images/nature-1.jpg" width="300" alt="">
+              </div>
+          </div>
+
+          <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-2.jpg" width="300" alt="">
+                </div>
+        </div>
+
+        <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-3.jpg" width="300" alt="">
+                </div>
+        </div>
+
+        <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-4.jpg" width="300" alt="">
+                </div>
+        </div>
+
+        <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-5.jpg" width="300" alt="">
+                </div>
+        </div>
+        
+        <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-6.jpg" width="300" alt="">
+                </div>
+        </div>
+
+        <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-7.jpg" width="300" alt="">
+                </div>
+        </div>
+
+        <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-8.jpg" width="300" alt="">
+                </div>
+        </div>
+        
+        <div class="swiper-slide">
+                <div class="imgBx">
+                    <img src="images/nature-10.jpg" width="300" alt="">
+                </div>
+        </div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    
+
+
+  
 
             <div class="info-container">
                     <div class="info-main">
@@ -92,5 +161,24 @@
 
      
         <script src="js/main.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script>
+                var swiper = new Swiper('.swiper-container', {
+                  effect: 'coverflow',
+                  grabCursor: true,
+                  centeredSlides: true,
+                  slidesPerView: 'auto',
+                  coverflowEffect: {
+                    rotate: 40,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows : true,
+                  },
+                  pagination: {
+                    el: '.swiper-pagination',
+                  },
+                });
+              </script>
 </body>
 </html>

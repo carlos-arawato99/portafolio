@@ -22,6 +22,13 @@ font-family: 'Kaushan Script', cursive;
 .icon{
   opacity: 0;
 }
+
+.icons{
+  width:200px;
+  margin:  auto;
+  padding: 20px;
+}
+
 /* estilos del header / nav */
 header{
   width: 100%;
@@ -123,6 +130,20 @@ header nav{
   color: #fff;
   text-align: center;
   box-shadow: #000;
+}
+
+
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
 }
 
 
