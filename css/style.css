@@ -90,7 +90,7 @@ header nav{
       width: 100%;
       flex-direction: column;
       transition: all 1s ease;
-      background: rgba(0, 0, 0, 0.9);
+      background: rgba(0, 0, 0, 0.7);
   }
   .uno{
       -webkit-clip-path: circle(0% at 100% 0%);
