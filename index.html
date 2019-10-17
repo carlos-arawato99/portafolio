@@ -4,68 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shorcut icon" type="image/x-icon" href="images/icon.png">
-    <script src="https://kit.fontawesome.com/53f03e1007.js"></script>
-    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    <link rel="shorcut icon" type="image/x-icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Carlos Martinez</title>
 </head>
 <body>
+        <div class="contenido" id="contenido">
+        <header class="header">
+                <nav>
+                  <div class="icon" id="icon">
+                    <span>&#9776;</span>
+                  </div>
+                  <div class="enlaces uno" id="enlaces">
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Acerca De</a>
+                    <a href="#">Proyectos</a>
+                    <a href="#">Contacto</a>
+                  
+                  </div>
+                </nav>
+
+            </header>
+        
+            
+           <div class="contenedor">
+                <img class="perfil" src="images/carlos.jpg" alt="">
+                <br>
+                <br>
+                <h1 class="name">Carlos Martinez</h1>
+            </div>
+
+
+
+
+            <div class="info-container">
+                    <div class="info-main">
+                         <a href="#">Mas Informacion</a>
+                    </div>
+                </div>
     
-    <!-- nav bar de mi portafolio -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand ml-5"><img src="images/icon.png" width="80px" height="54px"></a> 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="carrousel.html">Proyectos Html y CSS</a>
-            </li>
-            <li class="nav-item">
-              <a target="_blank" class="nav-link" href="BOOSTRAP/the instagram-boostrap/index.html">Instagram con Boostrap</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+                <footer>
+                    <div class="footer-container">
+                        <div class="footer-main">
+                            <div class="footer-columna" id="">
+                                <h3>Suscribete</h3>
+                                <input type="email" placeholder="Escriba Su Correo">
+                                <input type="submit" value="Suscribirse">
+                            </div>
+                            <div class="footer-columna" id="">
+                                    <h3>Direccion</h3>
+                                    <span class="fa fa-map-marker"><p>244 Av. Bolivar - Caracas</p></span>
+                                    <span class="fa fa-phone"><p>(+58) 67 3749856</p></span>
+                                    <span class="fa fa-envelope"><p>kossimoda@gmail.com</p></span>
+                                    
+                            </div>
+                            <div class="footer-columna" id="">
+                                    <h3>Sobre Nosotros</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur
+                                     adipisicing elit. Suscipit, eveniet.
+                                     Corporis illo quibusdam natus nulla modi 
+                                     est atque ipsa ipsam?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copy">
+                        <div class="main-copy">
+                            <div class="footer-copy">
+                                &copy; 2019 Kossi todos los derechos reservados.
+                            </div>
+                            <footer class="footer-redes">
+                                <a href="#" class="fab fa-facebook"></a>
+                                <a href="#" class="fab fa-instagram"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-github"></a>
+                            </footer>
+                        </div>
+                    </div>
+                </footer>
+
         </div>
-      </nav>
 
-      <section class="h1 text-white p-4 d-flex justify-content-center">
-        <h1>Desarrolo Web 4Geeks Academy</h1>
-      </section>
-
-      <div class="text-animacion" id="text-animacion">
-          <p>Hola</p>
-          <ul class="lista">
-            <li>Mundo</li>
-            <li>Usuario</li>
-            <li>desarrollador</li>
-          </ul>
-       </div>
-    
-      <!-- carrousel animado CSS3 -->
-      <div class="content-all" id="content-all">
-        <div class="content-carrousel">
-          <figure><img src="images/port1.PNG"></figure>
-          <figure><img src="images/port2.jpg"></figure>
-          <figure><img src="images/port3.jpg"></figure>
-          <figure><img src="images/port4.jpg"></figure>
-          <figure><img src="images/port5.jpeg"></figure>
-        </div>
-      </div>
-
-    
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script src="js/main.js"></script>
+     
+        <script src="js/main.js"></script>
 </body>
 </html>
